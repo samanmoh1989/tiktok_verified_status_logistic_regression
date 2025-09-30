@@ -1,0 +1,23 @@
+Conclusion Report — TikTok Logistic Regression Project
+
+In this project, we explored a dataset of TikTok videos and users with the goal of predicting whether an account is verified. 
+Our workflow included exploratory data analysis (EDA), data preprocessing, model building, and interpretation of results.
+
+Key Findings:
+- Severe skewness in engagement metrics (views, likes, shares, downloads, comments) required log transformation.
+- Strong multicollinearity was observed between views and likes (correlation ~0.86), leading to the exclusion of video_like_count.
+- Verified accounts show distinct engagement patterns compared to non-verified accounts.
+- Class imbalance was significant (≈94% not verified, 6% verified) and addressed using class weights or oversampling.
+
+Business Insights:
+- Verified users are more likely to post opinions, which are less critical for fact-checking than claims but reach larger audiences.
+- Prioritizing moderation of content from verified accounts can help reduce backlog and ensure more impactful content is reviewed first.
+- Engagement metrics can serve as strong signals for distinguishing verified accounts.
+
+Future Work:
+- Extend the model to directly classify claim vs opinion.
+- Incorporate NLP on video transcripts for deeper linguistic analysis.
+- Experiment with advanced models (ensemble methods, transformers) for improved performance.
+
+This project demonstrates how data science and machine learning can support content moderation strategies on social media platforms, 
+making moderation more efficient, scalable, and transparent.
