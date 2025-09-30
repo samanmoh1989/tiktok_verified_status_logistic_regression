@@ -1,6 +1,4 @@
 # TikTok Logistic Regression Project — Predicting Verified Status
-# TikTok Logistic Regression Project — Predicting Verified Status
-
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-1.4+-green.svg)
