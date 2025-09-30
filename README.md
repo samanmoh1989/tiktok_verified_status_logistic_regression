@@ -1,4 +1,11 @@
 # TikTok Logistic Regression Project — Predicting Verified Status
+# TikTok Logistic Regression Project — Predicting Verified Status
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-1.4+-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Kaggle Dataset](https://img.shields.io/badge/Data-Kaggle-blue.svg)
 
 ## 🔍 Introduction
 With the rapid growth of short-form video platforms like TikTok, millions of videos are uploaded every day. Among these, distinguishing between **factual claims** and **personal opinions** is critical for **content moderation** and **user trust**.
